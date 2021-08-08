@@ -2,7 +2,7 @@ import pytest
 import test as ts
 
 array = [5,3,4,2,1]
-diccionario = [{"nombre":"Fernando","edad":23},{"nombre":"Ruben","edad":15},{"nombre":"Fernando","edad":43}]
+diccionario = [{"nombre":"Andrea","edad":33},{"nombre":"Carlos","edad":10},{"nombre":"Fernando","edad":21}]
 
 def test():
     assert ar.ordenacion(array) == [1,2,3,4,5]
